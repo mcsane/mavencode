@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class CurrencyConverter {
 
-    private HashMap<String, Double> rates;
+    private HashMap<String, Double> rates = new HashMap<>();
 
     public void addRates(String currency, Double rate){
         rates.put(currency,rate);
