@@ -18,9 +18,7 @@ public class PetView extends Application {
     private Canvas canvas;
     private PetController petController;
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+
 
     @Override
     public void start(Stage primaryStage) {
