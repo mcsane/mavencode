@@ -19,9 +19,8 @@ public class GraphicsDemo extends Application {
     private GraphicsContext gc;
     private Controller controller;
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+
+
 
     @Override
     public void start(Stage primaryStage) {

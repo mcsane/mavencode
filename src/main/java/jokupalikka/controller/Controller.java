@@ -30,5 +30,9 @@ public class Controller {
     public int getGridSize() {
         return player.getGridSize();
     }
+
+    public static void main(String[] args) {
+        GraphicsDemo.launch(GraphicsDemo.class);
+    }
 }
 
