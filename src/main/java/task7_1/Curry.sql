@@ -23,9 +23,11 @@ DROP USER IF EXISTS 'appuser'@'localhost';
 CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'password';
 
 GRANT SELECT, INSERT, UPDATE, DELETE ON currency_converter.* TO 'appuser'@'localhost';
+GRANT CREATE, DROP ON currency_converter.* TO 'appuser'@'localhost';
 
 -- testaus
 SELECT * FROM currencies;
+SELECT * FROM transactions;
 SELECT * FROM currencies WHERE abbreviation = 'EUR';
 SELECT COUNT(*) FROM currencies;
 SELECT * FROM currencies ORDER BY conversion_rate DESC LIMIT 1;
