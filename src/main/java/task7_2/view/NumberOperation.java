@@ -26,5 +26,6 @@ public class NumberOperation {
         System.out.println(lista2);
         int sum = lista2.stream().mapToInt(Integer::intValue).sum();
         System.out.println(sum);
+
     }
 }
